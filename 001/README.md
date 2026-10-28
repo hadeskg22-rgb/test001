@@ -1,0 +1,5 @@
+Ce projet est un site web qui présente mon curriculum vitae. Je l’ai réalisé pour mettre en pratique ce que j’apprends en développement web et pour avoir une page à montrer aux recruteurs.
+
+Le site est construit avec React, qui permet de créer l’interface à partir de composants, c’est-à-dire de petits morceaux de page réutilisables. Par exemple, mes informations personnelles se trouvent dans le composant Info du fichier perso.jsx, qui est ensuite affiché dans la page principale App.jsx. J’utilise aussi Vite, un outil qui sert à lancer le projet sur mon ordinateur pendant que je le développe, et à préparer la version finale du site. Le tout est écrit en JavaScript (JSX), avec du HTML et du CSS pour la mise en forme.
+
+Pour utiliser ce projet, il faut d’abord récupérer le dépôt avec la commande git clone, puis entrer dans le dossier du projet. Ensuite, la commande npm install installe tout ce dont le projet a besoin. Enfin, npm run dev lance le site en local, que l’on peut ouvrir dans le navigateur à l’adresse http://localhost:5173. Pour préparer la version finale du site, on utilise npm run build.
